@@ -1,4 +1,4 @@
-# MyFirstProject
+# Mind Orbital Technologies Ltd. Task in Anguler
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
