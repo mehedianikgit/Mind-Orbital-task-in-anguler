@@ -1,1 +1,214 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+    font: weight 600px;
+    display: inline;
+}
+
+/* ----------top nav start */
+.text_col{
+    color: #82d4bc;
+    margin-left: 15px;
+}
+
+.icons i{
+    color: white;
+    background-color:#82d4bc;
+    padding: 5px;
+    border-radius: 50%;
+    margin-inline: 3px;
+}
+
+.top_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+/* ----------top nav end */
+
+/* ----------main nav start */
+
+nav{
+    background-color: #82d4bc;
+    padding: 15px;
+}
+.nav_item{
+    text-align: center;
+    color: white;
+}
+
+.nav_item i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+}
+/* ---------main nav section end */
+
+/* ------------side bar start */
+main {
+    margin-top: 10px;
+    display: flex;
+}
+.cal_bar{
+    width: 20%;
+    border-top: 1px solid rgb(234, 229, 229);
+    border-right: 1px solid rgb(234, 229, 229);
+}
+.cal_div{
+    margin-bottom: 50px;
+}
+.month {
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+.month ul li {
+    color: black;
+    font-size: 16px;
+}
+.weekdays {
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.weekdays li {
+    font-size: 12px;
+    display: inline;
+    color:black;
+    text-align: center;
+}
+  
+.days {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.days li {
+    display: inline;
+    font-size:12px;
+    color: #777;
+}
+  
+.days li .active {
+    padding: 5px;
+    border-radius: 50%;
+    background: #1abc9c;
+    color: white !important
+}
+.employees_div{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.employee_name_div{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.border{
+    border-bottom: 1px dashed gray;
+    margin-top: 20px;
+}
+.employees_div i{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #1abc9c;
+}
+.employees_name input{
+    margin: 10px 10px;
+    text-align: center;
+}
+.fa-angle-down{
+    margin-right: 10px;
+}
+.block{
+    height:100px;
+}
+/* left side end */
+/* right side start */
+
+.table_bar{
+    width: 78%;
+    margin-left: 10px;
+}
+.btn{
+   color: #1abc9c;
+   background-color: white;
+   padding: 10px 20px;
+   border: 1px solid #1abc9c; 
+   border-radius: 20px;
+}
+.btn i{
+    margin-left: 20px;
+}
+.table_bar h4{
+    color: rgb(164, 159, 159);
+    margin-top: 10px;
+}
+.btn_bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Table start */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align:center;
+    padding: 10px;
+}
+  
+tr:nth-child(even) {
+     background-color: #edfff6;
+}
+.employee_prof{
+   display: flex; 
+}
+.employee_prof img{
+    width: 60%;
+}
+.employee_prof p{
+    color: #1abc9c;
+    display:block;
+    padding-top: 10px;
+}
+.employee_prof small{
+    float: left;
+}
+.Employees_details{
+    padding-left: 10px;
+}
+.dashed{
+    border: 1px dashed #1abc9c;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* table end */
